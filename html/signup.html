@@ -11,7 +11,7 @@
     <form>
         <div>
             <label for="user">Username:</label><br>
-            <input type="text" id="user" name="user" required>
+            <input type="text" id="user" name="user" required minlength="3" maxlength="12">
         </div>
         <div>
             <label for="user_email">Email</label><br>
@@ -19,11 +19,11 @@
         </div>
         <div>
             <label for="user_password">Password</label><br>
-            <input type="password" id="user_password" name="user_password" required>
+            <input type="password" id="user_password" name="user_password" required minlength="5">
         </div>
         <div>
             <label for="user_confirm_password">Confirm Password</label><br>
-            <input type="password" id="user_confirm_password" name="user_confirm_password" required>
+            <input type="password" id="user_confirm_password" name="user_confirm_password" required minlength="5">
         </div>
         <div>
             <button type="submit">Sign Up</button>
