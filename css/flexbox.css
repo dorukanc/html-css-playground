@@ -1,0 +1,21 @@
+.box{
+    background-color:darkslategrey;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+    color: whitesmoke;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    align-items: flex-end;
+    gap: 10px;
+    flex: 0 1 auto;
+}
+.box3{
+    flex: 1 1 auto;
+    background-color: darkkhaki;
+    align-self: center;
+}
