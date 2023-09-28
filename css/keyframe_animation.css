@@ -10,11 +10,16 @@ body{
 }
 
 @keyframes myanimation{
-    from{
+    0%{
         width: 50px;
     }
 
-    to{
+    50%{
+        background-color: aquamarine;
+        height: 20px;
+    }
+
+    100%{
         width: 100px;
     }
 }
